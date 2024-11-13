@@ -1,0 +1,29 @@
+# Node.js dependencies
+
+/node_modules/
+
+# AWS Lambda deployment packages
+
+.zip
+
+# Logs and AWS Lambda runtime files
+
+_.log
+_.json
+.vscode/
+
+# Environment files
+
+.env
+
+# Temporary files
+
+npm-debug.log\*
+
+# Package lock file (if you use npm/yarn to lock dependencies)
+
+package-lock.json
+
+# Local AWS credentials and config files
+
+.aws/
